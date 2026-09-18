@@ -1,0 +1,43 @@
+THƯ MỤC ẢNH ĐỊA PHƯƠNG
+======================
+
+Bỏ ảnh của các địa phương vào ĐÂY. Ảnh của đơn vị đang xếp HẠNG NHẤT sẽ được
+dùng làm nền cho khối "Tốp đầu" trên trang công khai.
+
+QUY CÁCH ẢNH
+------------
+  Kích thước : 1600 x 900 px  (tỉ lệ 16:9)
+  Tối thiểu  : 1200 x 675 px
+  Định dạng  : .jpg  (chất lượng nén 75-82%)
+  Dung lượng : dưới 300 KB mỗi ảnh
+  Bố cục     : chủ thể chính nằm ở GIỮA ảnh (mép trên/dưới/trái/phải bị cắt bớt)
+  Tránh      : ảnh có chữ, ảnh dọc, ảnh chi tiết vụn ở giữa
+
+ĐẶT TÊN FILE
+------------
+Bỏ dấu, chữ thường, gạch nối thay khoảng trắng. Đặt đúng quy ước thì KHÔNG cần
+khai báo gì thêm:
+
+  Quảng Ninh          ->  quang-ninh.jpg
+  Lâm Đồng            ->  lam-dong.jpg
+  TP. Hồ Chí Minh     ->  tp-ho-chi-minh.jpg
+  Đảng ủy CATW        ->  dang-uy-catw.jpg
+  Quân ủy Trung ương  ->  quan-uy-trung-uong.jpg
+
+Nếu muốn dùng tên file khác, hoặc dùng .png/.webp, thì khai trong file
+"anh.csv" đặt ở thư mục CHA (cùng chỗ với bang-xep-hang.html):
+
+  Tên chiến dịch,Tên file ảnh
+  TP. Hồ Chí Minh,tphcm.png
+  _mặc định,nen-mac-dinh.jpg
+
+Dòng "_mặc định" là ảnh dùng chung khi đơn vị hạng nhất chưa có ảnh riêng.
+
+KHI PUBLISH
+-----------
+Upload cả thư mục "assets" này lên hosting, đặt cạnh file bang-xep-hang.html.
+
+LƯU Ý BẢN QUYỀN
+---------------
+Trang này công khai trên internet. Chỉ dùng ảnh do đơn vị tự chụp hoặc ảnh có
+giấy phép sử dụng rõ ràng.
